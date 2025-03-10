@@ -27,10 +27,10 @@ This project includes a SmarterArray class that enhances functionality beyond st
   - `cstdlib` for random number generation
   - `ctime` for seeding random values
 - **C++ Compiler**
-  - 'g++'
+  - I used g++ but you are welcome to use any alternative
 
 ### Compiling the Code
-Ensure you have g++ installed along with the required libraries. Compile the source code (using g++ as an example):
+Ensure you have g++ (or complier of your choice) installed along with the required libraries. Compile the source code (using g++ as an example):
 ```r
 g++ SchoolSystem.cpp -o SchoolSystem
 ```
