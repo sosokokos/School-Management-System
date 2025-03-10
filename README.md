@@ -18,33 +18,27 @@ This project includes a SmarterArray class that enhances functionality beyond st
 - **Search Function**: (find()) Allows quick retrieval of stored elements
 - **Element Removal**: (remove()) Supports safe and efficient deletion of elements.
 
-
-
-
-
-## Technologies Used
-- **Programming Language**: C++
-
-
 ## Setup
 ### Dependencies
 - **Libraries**:
-  - `depmixS4` for Hidden Markov Models
-  - `ggplot2` for data visualization
-  - `tidyverse` for data manipulation
-  - `dplyr` for dataset transformations
-  - `caret` for preprocessing and validation
+  - `iostream` for I/O
+  - `string` for handling strings
+  - `cassert` for assertions and debugging
+  - `cstdlib` for random number generation
+  - `ctime` for seeding random values
+- **C++ Compiler**
+  - 'g++'
 
 ### Compiling the Code
-Ensure you have R installed along with the required libraries. Install missing packages using:
+Ensure you have g++ installed along with the required libraries. Compile the source code (using g++ as an example):
 ```r
 g++ SchoolSystem.cpp -o SchoolSystem
 ```
 ### Running the Executable
-Ensure you have R installed along with the required libraries. Install missing packages using:
+Run the executable using:
 ```r
-g++ SchoolSystem.cpp -o SchoolSystem
+./SchoolSystem
 ```
 
 
-./school_system
+
