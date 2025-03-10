@@ -553,7 +553,8 @@ public:
 };
 //Constructors
 SchoolManagementSystem::SchoolManagementSystem()
-{}
+{
+}
 
 //Getters
 int SchoolManagementSystem::getNumberOfRegisteredStudents() const
